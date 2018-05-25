@@ -1,0 +1,26 @@
+body {
+    background-image: url("images/back-mail.jpg");
+}
+
+#logo-image {
+    background-image: url(images/logo-test.jpg);
+    background-color: aqua;
+    width: 10em;
+    height: 10em;
+    position: relative;
+    top: 2em;
+    left: 18em;
+}
+
+.container-login {
+    width: 45em;
+    height: 30em;
+    position: relative;
+    text-align: center;
+    top: 5em;
+    left: 18em;
+    padding-top: 2em;
+    border: 1em solid white;
+    border-radius: 1em;
+    background-color: white;
+}
