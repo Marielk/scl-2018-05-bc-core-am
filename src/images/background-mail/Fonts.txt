@@ -1,0 +1,14 @@
+Fonts used in this design;
+
+Font: Abril Fatface, 
+Author: TypeTogether, 
+Url: http://www.fontsquirrel.com/fonts/abril-fatface; 
+
+Font: Bebas, 
+Author: Flat-it, 
+Url: http://www.fontsquirrel.com/fonts/Bebas; 
+
+Font: Brawler, 
+Author: Cyreal, 
+Url: http://www.fontsquirrel.com/fonts/brawler; 
+
