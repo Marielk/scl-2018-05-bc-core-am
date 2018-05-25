@@ -44,6 +44,30 @@
     background-color: white;
 }
 
+#logButton {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #BC8F8F;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #645672;
+}
+
+
+#logButton:hover {background-color: rgb(208, 91, 255)}
+
+#logButton:active {
+  background-color: #ee6f1a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 a {
     text-decoration: none;
 }
