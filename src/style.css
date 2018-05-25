@@ -11,6 +11,16 @@
     left: 30em;
 }
 
+#title {
+    position: relative;
+    left : 30em;
+    top : 6em;
+    
+}
+
+a {
+    text-decoration: none;
+}
 
 ul.horizontal{
     margin:10px;
