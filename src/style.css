@@ -1,10 +1,24 @@
 /* Acá va tu código */
+
+
+#logo-image {
+    background-image: url("images/logo-test.jpg");
+    background-color: aqua;
+    width: 10em;
+    height: 10em;
+    position: relative;
+    top : 5em;
+    left: 30em;
+}
+
+
 ul.horizontal{
-    margin:0;
+    margin:10px;
     padding:0;
 }
 ul.horizontal li{
     display:block;
     float:left;
     padding: 10px;
+    border: ; 
 }
