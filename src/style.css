@@ -13,9 +13,35 @@
 
 #title {
     position: relative;
-    left : 30em;
-    top : 6em;
+    left: 14em;
+    top: 3em;
+    width: 10em;
+    height: 2em;
+    font-size: 30px;
+    text-align: center;
     
+    
+}
+
+.container-index {
+    width: 35em;
+    height: 15em;
+    position: relative;
+    text-align: center;
+    top: 5em;
+    left: 18em;
+    padding-top: 2em;
+    background-color: ;
+}
+
+#user-answer {
+    width: 20em;
+    height: 2em;
+    padding: 1em;
+    display: block;
+    margin-left: 10em;
+    margin-bottom: 3em;
+    background-color: white;
 }
 
 a {
