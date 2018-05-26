@@ -60,4 +60,42 @@ a {
    
 }
 
-/* de aca para abajo es el estilo de la pagina 
+/* de aca para abajo es el estilo de la pagina */
+
+#textToCipher {
+    width: 20em;
+    text-align: center;
+    height: 10em;
+    padding: 1em;
+    display: block;
+    margin-left: 15.5em;
+    margin-bottom: 3em;
+    background-color: white;
+}
+
+#downNumber{
+    display: inline;
+    position: relative;
+    bottom: 0.8em;
+    right: 3em;
+}
+#placeNumber{
+    display: inline;
+    position: relative;
+    width: 2em;
+    height: 2em;
+    bottom: 2.8em;
+    right: 1em;
+}
+#upNumber{
+    display: inline;
+    position: relative;
+    bottom: 3.7em;
+    left: 2em;
+}
+#cipherButton{
+    display: block;
+    position: relative;
+    left: 24.8em;
+    bottom: 1em;
+}

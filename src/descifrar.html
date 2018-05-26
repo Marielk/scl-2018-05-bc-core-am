@@ -8,23 +8,25 @@
     <link rel="stylesheet" href="style_descrifrar.css" />
 </head>
 <body>
+    <section class="container-descifrar">
     <header>
         <ul class="horizontal">
-            <li><a href="cifrar.html">Cifrar</a></li>
-            <li><a href="descifrar.html">Descifrar</a></li>
-            <li><a href="chat.html">Chat</a></li>
-            <li><a href="configuracion.html">Config</a></li>
+                <li id="cif-link"><a href="cifrar.html">Cifrar</a></li>
+                <li id="des-link"><a href="descifrar.html">Descifrar</a></li>
+                <li id="chat-link"><a href="chat.html">Chat</a></li>
+                <li id="config-link"><a href="configuracion.html">Config</a></li>
         </ul>
     </header>
 
     <section>
       <input type = "text" id = "textToDecode"  placeholder = "escribe tu mensaje" value = "" />
-      <button id = "cipherButton" >Descifrar</button>
+      <button id = "decode-button" >Descifrar</button>
 
     </section>
 
     <section>
             <p id = "decodeText"> aca debe quedar el mensaje descifrado </p>
+    </section>
     </section>
     
 </body>
