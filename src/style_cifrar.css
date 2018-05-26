@@ -1,3 +1,63 @@
 body {
-    background-image: url("images/back-mail.jpg");
+    background-image: url("images/back-circuit.jpg");
 }
+
+.container-cifrar {
+    width: 45em;
+    height: 30em;
+    position: relative;
+    text-align: center;
+    top: 5em;
+    left: 18em;
+    padding-top: 2em;
+    border: 1em solid white;
+    border-radius: 1em;
+    background-color: white;
+}
+
+li {
+    position: relative;
+    right: 1em;
+    left: -1em;
+    bottom: 2em;
+    display: inline;
+    text-align: center;
+    padding: 1em 3.8em;
+    text-decoration: none;
+    border-right: 1px 10px solid #bbb;
+}
+
+#cif-link {
+     background-color: #000000;  
+}
+
+#cif-link:hover {background-color: 	#00FFFF}
+
+#des-link {
+    background-color: #000000;  
+}
+
+#des-link:hover {background-color: 	#00FFFF}
+
+#chat-link {
+    background-color: #000000;  
+}
+
+#chat-link:hover {background-color: 	#00FFFF}
+
+#config-link {
+    background-color: #000000;  
+}
+
+#config-link:hover {background-color: 	#00FFFF}
+
+
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+   
+}
+
+/* de aca para abajo es el estilo de la pagina 
