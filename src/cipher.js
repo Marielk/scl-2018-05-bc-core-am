@@ -2,22 +2,40 @@
 
 window.cipher = {
  encode: (userText, positions) => {
-    let asciiValue = ""; // aca guardare los valores ascii de cada letra
-    let fullTextCipher = ""; // aca guardare el texto completo cifrado
+    let asciiValue = []; // aca guardare los valores ascii de cada letra
+    
     for (let i = 0; i < userText.length; i++) { // este es un ciclo que recorre el texto ingresado
-      
-      asciiValue += userText[i].charCodeAt(i); // esto va sumando cada letra al valor ascii
-      const newPosition = (asciiValue - 65 + positions) % 26 + 65; // esto calcula la nueva posicion assi cifrada
-      alert(newPosition); // esto nos muestra la nueva poscion 
-      const resultChiper= String.fromCharCode(); // esto transforma esa nueva posicion a una letra del alfabeto normal
-      console.log(resultChiper); // esto nos muestra la nueva letra 
+      asciiValue.push(userText.charCodeAt(i)); // esto traduce la letra al codigo ascii y va añadiendo cada numero a asciiValue//
+    }
+    console.log(asciiValue);
+    
+    let asciiNewValue = [];
+    for ( let i = 0; i < asciiValue.length; i++) {
+      if (asciiValue[i] >= 65 && asciiValue[i] <= 87) {
+      asciiNewValue.push(asciiValue[i] + positions);
+      } else if (asciiValue[i] >= 87 && asciiValue[i] <= 90) {
+      asciiNewValue.push(asciiNewValue[i]-positions);
+      }
+
+    }
+    console.log(asciiNewValue);
+    let resultChiper = [];
+    for ( let i = 0; i < asciiNewValue.length; i++) {
+    resultChiper.push(String.fromCharCode(asciiNewValue[i]));
+    }
+    console.log(resultChiper.join(""));    
   }
- }
 }
 
-
-
-
+ 
+/*
+let asciiNewValue = [];
+    let resultChiper = [];// aca guardare cada letra cifrada
+    for (let i = 0; i ; i++) {
+    function newPosition() { asciiNewValue.push(asciiValue - 65 + positions) % 26 + 65; }  // esto calcula la nueva posicion assi cifrada//
+      alert(asciiNewValue); // esto nos muestra la nueva poscion 
+      resultChiper += String.fromCharCode(asciiNewValue); // esto transforma esa nueva posicion a una letra del alfabeto normal y la guarda en resultcipher
+      return(resultChiper); */
 
 /* 
 
