@@ -7,23 +7,25 @@ window.cipher = {
     for (let i = 0; i < userText.length; i++) { // este es un ciclo que recorre el texto ingresado
       asciiValue.push(userText.charCodeAt(i)); // esto traduce la letra al codigo ascii y va añadiendo cada numero a asciiValue//
     }
-    console.log(asciiValue);
+    console.log(asciiValue); // muestra los codigos ascii de cada letra
     
-    let asciiNewValue = [];
-    for ( let i = 0; i < asciiValue.length; i++) {
-      if (asciiValue[i] >= 65 && asciiValue[i] <= 87) {
-      asciiNewValue.push(asciiValue[i] + positions);
-      } else if (asciiValue[i] >= 87 && asciiValue[i] <= 90) {
+    let asciiNewValue = []; // aca se guardaran las nuevas posiciones
+    for ( let i = 0; i < asciiValue.length; i++) { // este ciclo recorre los codigos ascii normal
+      if (asciiValue[i] >= 65 && asciiValue[i] <= 87) { //aca se valida que los numeros correspondan a letras mayusculas
+      asciiNewValue.push(asciiValue[i] + positions); //si es asi se guardaran en ascii new value + el offset
+      } else if (asciiValue[i] >= 87 && asciiValue[i] <= 90) { // si no es asi se guardaran en asciinewvalue - el offset
       asciiNewValue.push(asciiNewValue[i]-positions);
+      } else {
+        asciiNewValue.push(asciiNewValue[i]);// esto pasa directo los caracteres que no son letras mayusculas como espacios
       }
 
     }
-    console.log(asciiNewValue);
-    let resultChiper = [];
-    for ( let i = 0; i < asciiNewValue.length; i++) {
-    resultChiper.push(String.fromCharCode(asciiNewValue[i]));
+    console.log(asciiNewValue); //aca vemos esos valores nuevos
+    let resultChiper = [];//aca guardaremos las letras cifradas
+    for ( let i = 0; i < asciiNewValue.length; i++) {//esto recorre los nuevos valores
+    resultChiper.push(String.fromCharCode(asciiNewValue[i]));// esto va traduciendo esos valores a la letra cifrada
     }
-    console.log(resultChiper.join(""));    
+    console.log(resultChiper.join("")); //esto concatena las letras  
   }
 }
 
