@@ -4,7 +4,7 @@ body {
 
 .container-cifrar {
   width: 45em;
-  height: 30em;
+  height: 40em;
   position: relative;
   text-align: center;
   top: 5em;
@@ -73,6 +73,17 @@ a {
   background-color: white;
 }
 
+#textToDecode {
+  width: 20em;
+  text-align: center;
+  height: 10em;
+  padding: 1em;
+  display: block;
+  margin-left: 15.5em;
+  margin-bottom: 3em;
+  background-color: white;
+}
+
 #downNumber{
   display: inline;
   position: relative;
@@ -82,8 +93,16 @@ a {
 #placeNumber{
   display: inline;
   position: relative;
-  width: 2em;
-  height: 2em;
+  width: 10em;
+  height: 1em;
+  bottom: 2.8em;
+  right: 1em;
+}
+#placeNumber2{
+  display: inline;
+  position: relative;
+  width: 10em;
+  height: 1em;
   bottom: 2.8em;
   right: 1em;
 }

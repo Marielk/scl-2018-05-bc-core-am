@@ -72,6 +72,15 @@ a {
     background-color: white;
 }
 
+#placeNumber2{
+    display: inline;
+    position: relative;
+    width: 2em;
+    height: 2em;
+    bottom: 2.8em;
+    right: 1em;
+  }
+
 #decode-button{
     display: block;
     position: relative;
