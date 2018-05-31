@@ -2,6 +2,7 @@
 
 window.cipher = {
  encode: (userText, positions) => {
+    
     let asciiValue = []; // aca guardare los valores ascii de cada letra
     
     for (let i = 0; i < userText.length; i++) { // este es un ciclo que recorre el texto ingresado
@@ -23,10 +24,14 @@ window.cipher = {
     console.log(asciiNewValue); //aca vemos esos valores nuevos
     let resultChiper = [];//aca guardaremos las letras cifradas
     for ( let i = 0; i < asciiNewValue.length; i++) {//esto recorre los nuevos valores
-    resultChiper.push(String.fromCharCode(asciiNewValue[i]));// esto va traduciendo esos valores a la letra cifrada
-    }
-    console.log(resultChiper.join("")); //esto concatena las letras  
-  }
+      if (asciiNewValue[i] !== undefined){
+        resultChiper.push(String.fromCharCode(asciiNewValue[i]));  
+       } else if (asciiNewValue[i] === undefined) { 
+         resultChiper.push(userText[i]);
+       }
+      }
+  return resultChiper.join(""); //esto concatena las letras  
+ }
 }
 
  

@@ -1,12 +1,12 @@
-const userText = document.getElementById("textToCipher"). value;
+window.onload = () => {
+	const btn = document.getElementById("cipherButton");
+	btn.addEventListener("click", () => {
+		const userText = document.getElementById("textToCipher"). value;
+		const userTextEncode = userText.toUpperCase();
+		const positions = parseInt(document.getElementById("placeNumber"). value);
+		let showResult = window.cipher.encode(userTextEncode, positions);
+		document.getElementById("cipherText").innerHTML = showResult; 
+  });
+};
+/* Acá va tu código */ 
 
-const btn = document.getElementById("cipherButton");
-
-const positions = document.getElementById("placeNumber"). value;
-
-btn.addEventListener('click', cipher.encode);
-
-const cipherResult = document.getElementById("cipherText"). value; 
-document.getElementById("cipherText").innerHTML = cipherResult; 
-
-/* Acá va tu código */
