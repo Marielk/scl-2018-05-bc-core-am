@@ -1,5 +1,6 @@
 body {
   background-image: url("images/back-circuit.jpg");
+  color: white;
 }
 
 .container-cifrar {
@@ -7,12 +8,13 @@ body {
   width: 70%;
   text-align: center;
   position: relative;
+  color: white;
   top: 1em;
   padding-top: 2em;
   border: 0.2em solid white;
   margin: 0;
   border-radius: 1em;
-  background: rgba(76, 139, 139, 0.6);
+  background: rgba(76, 139, 139, 0.9);
 }
 
 
@@ -61,13 +63,15 @@ a {
    
 }
 
+
+
 /* de aca para abajo es el estilo de la pagina */
-.input {
-  text-align: center;
-}
+
 #textToCipher {
   width: 20em;
   text-align: center;
+  position: relative;
+  left: 10.5em;
   height: 10em;
   padding: 1em;
   display: block;
@@ -80,6 +84,8 @@ a {
 #textToDecode {
   width: 20em;
   text-align: center;
+  position: relative;
+  left: 10.5em;
   height: 10em;
   padding: 1em;
   display: block;
@@ -95,7 +101,7 @@ a {
   width: 10em;
   height: 1em;
   bottom: 2.8em;
-  right: 1em;
+  left: 2em;
 }
 #placeNumber2{
   display: inline;
@@ -103,19 +109,20 @@ a {
   width: 10em;
   height: 1em;
   bottom: 2.8em;
-  right: 1em;
+  left: 2em;
 }
 
 #cipherButton{
   display: block;
   position: relative;
-  left: 24.8em;
+  left: 36em;
   bottom: 1em;
+  text-align: center;
 }
 
 #decode-button{
   display: block;
   position: relative;
-  left: 24.8em;
+  left: 35.5em;
   bottom: 1em;
 }

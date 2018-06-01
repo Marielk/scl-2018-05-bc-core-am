@@ -1,0 +1,126 @@
+body {
+  background-image: url("images/back-circuit.jpg");
+}
+
+.container-cifrar {
+  left: 13em;
+  width: 70%;
+  text-align: center;
+  position: relative;
+  top: 1em;
+  padding-top: 2em;
+  border: 0.2em solid white;
+  margin: 0;
+  border-radius: 1em;
+  background: rgba(76, 139, 139, 0.9);
+}
+
+
+li {
+  position: relative;
+  right: 1em;
+  left: -1em;
+  bottom: 2em;
+  display: inline;
+  text-align: center;
+  padding: 1em 3.8em;
+  text-decoration: none;
+  border-right: 1px 10px solid #bbb;
+}
+
+#cif-link {
+  background-color: #000000;  
+}
+
+#cif-link:hover {background-color: 	#00FFFF}
+
+#des-link {
+  background-color: #000000;  
+}
+
+#des-link:hover {background-color: 	#00FFFF}
+
+#chat-link {
+  background-color: #000000;  
+}
+
+#chat-link:hover {background-color: 	#00FFFF}
+
+#config-link {
+  background-color: #000000;  
+}
+
+#config-link:hover {background-color: 	#00FFFF}
+
+
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+   
+}
+
+/* de aca para abajo es el estilo de la pagina */
+.input {
+  text-align: center;
+}
+#textToCipher {
+  width: 20em;
+  text-align: center;
+  position: relative;
+  left: 10.5em;
+  height: 10em;
+  padding: 1em;
+  display: block;
+  margin-left: 15.5em;
+  margin-bottom: 3em;
+  background-color: white;
+  opacity: 1;
+}
+
+#textToDecode {
+  width: 20em;
+  text-align: center;
+  position: relative;
+  left: 10.5em;
+  height: 10em;
+  padding: 1em;
+  display: block;
+  margin-left: 15.5em;
+  margin-bottom: 3em;
+  background-color: white;
+}
+
+
+#placeNumber{
+  display: inline;
+  position: relative;
+  width: 10em;
+  height: 1em;
+  bottom: 2.8em;
+  left: 2em;
+}
+#placeNumber2{
+  display: inline;
+  position: relative;
+  width: 10em;
+  height: 1em;
+  bottom: 2.8em;
+  left: 2em;
+}
+
+#cipherButton{
+  display: block;
+  position: relative;
+  left: 36em;
+  bottom: 1em;
+  text-align: center;
+}
+
+#decode-button{
+  display: block;
+  position: relative;
+  left: 35.5em;
+  bottom: 1em;
+}

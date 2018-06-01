@@ -1,0 +1,89 @@
+body {
+    background-image: url("images/back-circuit.jpg");
+}
+
+.container-descifrar {
+    width: 45em;
+    height: 30em;
+    position: relative;
+    text-align: center;
+    top: 5em;
+    left: 18em;
+    padding-top: 2em;
+    border: 1em solid white;
+    border-radius: 1em;
+    background-color: white;
+}
+
+li {
+    position: relative;
+    right: 1em;
+    left: -1em;
+    bottom: 2em;
+    display: inline;
+    text-align: center;
+    padding: 1em 3.8em;
+    text-decoration: none;
+    border-right: 1px 10px solid #bbb;
+}
+
+#cif-link {
+     background-color: #000000;  
+}
+
+#cif-link:hover {background-color: 	#00FFFF}
+
+#des-link {
+    background-color: #000000;  
+}
+
+#des-link:hover {background-color: 	#00FFFF}
+
+#chat-link {
+    background-color: #000000;  
+}
+
+#chat-link:hover {background-color: 	#00FFFF}
+
+#config-link {
+    background-color: #000000;  
+}
+
+#config-link:hover {background-color: 	#00FFFF}
+
+
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+   
+}
+
+
+#textToDecode {
+    width: 20em;
+    text-align: center;
+    height: 10em;
+    padding: 1em;
+    display: block;
+    margin-left: 15.5em;
+    margin-bottom: 3em;
+    background-color: white;
+}
+
+#placeNumber2{
+    display: inline;
+    position: relative;
+    width: 2em;
+    height: 2em;
+    bottom: 2.8em;
+    right: 1em;
+  }
+
+#decode-button{
+    display: block;
+    position: relative;
+    left: 24.8em;
+    bottom: 1em;
+}

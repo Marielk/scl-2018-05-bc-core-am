@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cifrar</title>
+    <link rel="stylesheet" href="style_cifrar.css" />
+</head>
+<body>
+    <section class="container-cifrar" id= "main_container">
+      <header>
+        <ul class="horizontal">
+          <li id="cif-link"><a href="cifrar.html">Cifrar</a></li>
+          <li id="des-link"><a href="descifrar.html">Descifrar</a></li>
+          <li id="chat-link"><a href="chat.html">Chat</a></li>
+          <li id="config-link"><a href="configuracion.html">Config</a></li>
+        </ul>
+      </header>
+
+      <div>
+         <input type = "text" id = "textToCipher"  placeholder = "escribe tu mensaje" value = "" />
+         <input type = "text" id = "placeNumber"  placeholder = "espacios a desplazar" value = "" />
+         <button id = "cipherButton" >Cifrar</button>
+      </div>
+
+      <div>
+        <p id = "cipherText">  </p>
+      </div>
+
+      <div>
+        <div>  
+          <input type = "text" id = "textToDecode"  placeholder = "escribe tu mensaje" value = "" />
+          <input type = "text" id = "placeNumber2"  placeholder = "espacios a desplazar" value = "" />
+          <button id = "decode-button" >Descifrar</button>
+        </div>
+        <div>
+          <p id = "decodeText">  </p>
+        </div>
+      </div>
+        <script src="index.js"></script>
+        <script src="cipher.js"></script>
+      <footer>
+      <!--aca deberia ir el enlace para compartir en rss-->
+      </footer>  
+    </section>  
+</body>
+</html>

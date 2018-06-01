@@ -1,0 +1,100 @@
+/* Acá va tu código */
+body {
+    background-image: url("images/back-mail.jpg");
+}
+
+#logo-image {
+    background-image: url(images/logo-test.jpg);
+    background-color: aqua;
+    width: 10em;
+    height: 10em;
+    position: relative;
+    top: 2em;
+    left: 18em;
+}
+
+#title {
+    position: relative;
+    left: 7em;
+    top: 1.5em;
+    width: 10em;
+    height: 2em;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container-index {
+    width: 45em;
+    height: 30em;
+    position: relative;
+    text-align: center;
+    top: 5em;
+    left: 18em;
+    padding-top: 2em;
+    border: 1em solid white;
+    border-radius: 1em;
+    background-color: white;
+}
+
+#user-answer {
+    width: 20em;
+    height: 2em;
+    padding: 1em;
+    display: block;
+    margin-left: 15.5em;
+    margin-bottom: 3em;
+    background-color: white;
+}
+
+#logButton {
+    bottom: 2em;
+    position: relative;
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #BC8F8F;
+    border: none;
+    border-radius: 1em;
+    box-shadow: 0 9px #645672;
+}
+
+
+#logButton:hover {background-color: rgb(208, 91, 255)}
+
+#logButton:active {
+  background-color: #ee6f1a;
+  box-shadow:  0.2em #666;
+  transform: translateY(4px);
+}
+
+#register-link {
+    position: relative;
+    display: block;
+    background-color: #ADD8E6;
+    top: 0.em;
+    bottom: 0.5em;
+    left: 20em;
+    text-align: center;
+    font-size: 1em;
+    width: 5em;
+    height: 1em;
+}
+a {
+    text-decoration: none;
+}
+
+ul.horizontal{
+    margin:10px;
+    padding:0;
+}
+ul.horizontal li{
+    display:block;
+    float:left;
+    padding: 10px;
+    border: ; 
+}
