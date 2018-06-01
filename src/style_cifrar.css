@@ -3,17 +3,18 @@ body {
 }
 
 .container-cifrar {
-  width: 45em;
-  height: 40em;
-  position: relative;
+  left: 13em;
+  width: 70%;
   text-align: center;
-  top: 5em;
-  left: 18em;
+  position: relative;
+  top: 1em;
   padding-top: 2em;
-  border: 1em solid white;
+  border: 0.2em solid white;
+  margin: 0;
   border-radius: 1em;
-  background-color: white;
+  background: rgba(76, 139, 139, 0.6);
 }
+
 
 li {
   position: relative;
@@ -61,7 +62,9 @@ a {
 }
 
 /* de aca para abajo es el estilo de la pagina */
-
+.input {
+  text-align: center;
+}
 #textToCipher {
   width: 20em;
   text-align: center;
@@ -71,6 +74,7 @@ a {
   margin-left: 15.5em;
   margin-bottom: 3em;
   background-color: white;
+  opacity: 1;
 }
 
 #textToDecode {
@@ -84,12 +88,7 @@ a {
   background-color: white;
 }
 
-#downNumber{
-  display: inline;
-  position: relative;
-  bottom: 0.8em;
-  right: 3em;
-}
+
 #placeNumber{
   display: inline;
   position: relative;
@@ -106,13 +105,15 @@ a {
   bottom: 2.8em;
   right: 1em;
 }
-#upNumber{
-  display: inline;
-  position: relative;
-  bottom: 3.7em;
-  left: 2em;
-}
+
 #cipherButton{
+  display: block;
+  position: relative;
+  left: 24.8em;
+  bottom: 1em;
+}
+
+#decode-button{
   display: block;
   position: relative;
   left: 24.8em;
